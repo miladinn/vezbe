@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 3 Grid System</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Header -->
+<header class="main-header">
+    <!-- Header Container -->
+    <div class="container">
+        <h1 class="logo"><a href="#">Bootstrap Grid</a></h1>
+    </div>
+    <!-- Header Container END -->
+</header>
+<!-- Main Header END -->
+
+<!-- Container -->
+<div class="container">
+    <nav>
+        <ul class="clearfix">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Grid</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">Learn it!</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- About Section -->
+        <section class="about">
+            <article class="intro">
+                <div class="row">
+                    <div class="col-sm-5 col-md-4">
+                        <img class="img-responsive img-circle" src="img/bootstrap-responsive-screens.jpg"
+                             alt="Responsive Bootstrap">
+                    </div>
+                    <div class="col-sm-7 col-md-8">
+                        <h2 class="h1">Bootstrap 3 grid system</h2>
+
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum
+                            ligula
+                            enim, at dictum
+                            odio condimentum a. Nulla consectetur sapien ac pellentesque posuere. Sed faucibus elit
+                            vitae
+                            mauris
+                            cursus, sed sagittis magna molestie. Nunc faucibus mattis dignissim. Nam nunc ipsum, rhoncus
+                            id
+                            vulputate ac, viverra quis sem. </p>
+                    </div>
+                </div>
+            </article>
+
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <article>
+                        <h3>Why is it good?</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum ligula enim, at
+                            dictum odio condimentum a. Nulla consectetur sapien ac pellentesque posuere. Sed faucibus
+                            elit
+                            vitae mauris cursus.</p>
+                        <a class="read-more" href="#">Read more...</a>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <article>
+                        <h3>Mobile first</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum ligula enim, at
+                            dictum odio condimentum a. Nulla consectetur sapien ac pellentesque posuere. Sed faucibus
+                            elit
+                            vitae mauris cursus.</p>
+                        <a class="read-more" href="#">Read more...</a>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-0">
+                    <article>
+                        <h3>How does it work?</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque condimentum ligula enim, at
+                            dictum odio condimentum a. Nulla consectetur sapien ac pellentesque posuere. Sed faucibus
+                            elit
+                            vitae mauris cursus.</p>
+                        <a class="read-more" href="#">Read more...</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- About Section END -->
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 col-lg-8">
+                    <h3>Any questions? Please, contact us.</h3>
+
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="UserName">Name</label>
+                            <input class="form-control" type="text" name="UserName" id="UserName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="UserEmail">E-mail</label>
+                            <input class="form-control" type="email" name="UserEmail" id="UserEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="UserMessage">Message</label>
+                            <textarea class="form-control" name="UserMessage" id="UserMessage"
+                                      required></textarea>
+                        </div>
+                        <button class="btn btn-block button">Send</button>
+                    </form>
+                </div>
+                <div class="col-sm-4 col-md-5 col-lg-4">
+                    <div class="svg-holder">
+                        <img class="img-responsive hidden-xs" src="img/envelope.svg" alt="Envelope">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section END -->
+    </main>
+</div>
+<!-- Container END -->
+
+<!-- Main Footer -->
+<footer class="main-footer">
+    <!-- Footer Container -->
+    <div class="container">
+        <small>&copy; Krojačeva škola 2015.</small>
+    </div>
+    <!-- Footer Container END -->
+</footer>
+<!-- Main Footer END -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+/* Global */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-weight: 600;
+}
+
+a {
+    color: #ff9900;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* Layout */
+
+.main-header {
+    height: 100px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+.main-footer {
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+small {
+    font-size: 14px;
+}
+/* Specific */
+.logo {
+    margin-top: 35px;
+}
+.logo a {
+    text-indent: -9999px;
+    background-image: url("../img/bootstrap-grid-logo.svg");
+    background-repeat: no-repeat;
+    display: block;
+    width: 207px;
+    height: 39px;
+    margin: auto;
+}
+nav {
+    margin-bottom: 30px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    width: 50%;
+    float: left;
+}
+nav ul li a {
+    display: block;
+    height: 40px;
+    background-color: #f90;
+    line-height: 40px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+.intro {
+    margin-bottom: 40px;
+}
+.intro img {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.intro h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.lead {
+    font-size: 18px;
+}
+.about {
+    margin-bottom: 65px;
+}
+.about article {
+    margin-bottom: 40px;
+}
+.about article h3 {
+    height: 50px;
+    text-align: center;
+    background-color: #333;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.about article p {
+    margin-bottom: 20px;
+}
+.contact h3 {
+	text-align: center;
+    margin-top: 0;
+}
+#contact-form .form-group label {
+	display: block;
+	text-align: center;
+}	
+#contact-form .form-control {
+	border-radius: 0;
+	border: 2px solid #333;
+	box-shadow: none;
+	height: 50px;
+}
+#contact-form textarea.form-control {
+	height: 180px;
+	margin-bottom: 30px;
+}	
+#contact-form button {
+	background-color: #f90;
+	color: #fff;
+	font-weight: bold;
+    font-size: 22px;
+	border-radius: 0;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+#contact-form button:hover {
+    background-color: #333;
+}
+.svg-holder {
+    padding-top: 60px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Specific */
+    .logo a {
+        margin: 0;
+    }
+    nav {
+        margin-bottom: 80px;
+    }
+    nav ul li {
+        width: 165px;
+    }
+    .intro {
+        margin-bottom: 60px;
+    }
+    .intro h2 {
+        text-align: left;
+        font-size: 32px;
+        margin-top: 5px;
+    }
+    .about {
+        margin-bottom: 70px;
+    }
+	.main-footer {
+		text-align: left;
+	}	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .intro h2 {
+        text-align: left;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    #contact-form button {
+        margin-bottom: 70px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .intro h2 {
+        text-align: left;
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .about {
+        margin-bottom: 80px;
+    }
+    #contact-form button {
+        margin-bottom: 120px;
+    }
+}
